@@ -1,0 +1,101 @@
+
+
+footer{
+    padding: 90px 0;
+    background-color: #141414;
+    .wrapper{
+        .footer__top{
+            display: flex;
+            column-gap: 8px;
+            align-items: center;
+            margin-bottom: 60px;
+            &--title{
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: 700;
+            }
+            &--year{
+                color: #666666;
+                letter-spacing: 1px;
+                font-size: 10px;
+            }
+        }
+
+        .line{
+            background-color: #4D4D4D;
+            margin-bottom: 60px;
+            width: 100%;
+            height: 1px;
+            display: block;
+        }
+        .footer__middle{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 70px;
+            &--category{
+                color: #666666;
+                font-size: 10px;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+            }
+            &--list{
+                display: flex;
+                column-gap: 100px;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 15px;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+            &--form{
+                display: flex;
+                &-inp{
+                    outline: none;
+                    padding: 18px 24px;
+                }
+                &-btn{
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    background-color: #000;
+                    color: #fff;
+                    outline: none;
+                    padding: 18px 24px;
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: transparent;
+                        border-color: #fff;
+                    }
+                }
+            }
+        }
+
+        .footer__bottom{
+            display: flex;
+            column-gap: 170px;
+            .footer__card{
+                &--title{
+                    color: #666666;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    margin-bottom: 20px;
+                }
+                &--content{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 15px;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

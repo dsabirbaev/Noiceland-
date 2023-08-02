@@ -1,0 +1,211 @@
+
+
+#intro{
+    padding-top: 60px;
+    margin-top: 90px;
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .intro__content{
+            &--field{
+                text-transform: uppercase;
+                color: #999999;
+                font-size: 10px;
+                letter-spacing: 1px;
+                margin-bottom: 18px;
+            }
+            &--title{
+                text-transform: uppercase;
+                font-size: 36px;
+                line-height: 42px;
+                margin-bottom: 27px;
+                width: 429px;
+            }
+            &--text{
+                text-transform: uppercase;
+                color: #666;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 28px;
+                width: 419px;
+            }
+            &--auth{
+                text-transform: uppercase;
+                font-size: 10px;
+                letter-spacing: 1px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+#cards{
+    padding-top: 60px;
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+
+        .card{
+            width: 380px;
+            min-height: 420px;
+            padding: 20px 8px;
+            border: 1px solid silver;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            display: flex;
+            flex-direction: column;
+            &__body{
+                padding-top: 20px;
+                &--field{
+                    color: #999999;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                }
+                &--title{
+                   font-size: 20px;
+                   line-height: 24px;
+                   text-transform: uppercase;
+                   margin-bottom: 15px;
+                }
+                &--auth{
+                    font-weight: 700;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+#posts{
+    padding-top: 156px;
+    padding-bottom: 90px;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        .posts__title{
+            font-size: 10px;
+            color: #999999;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .posts__cards{
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 20px;
+            margin-bottom: 64px;
+        }
+
+        .posts__card{
+            width: 270px;
+            padding: 12px;
+            border: 1px solid silver;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            display: flex;
+            flex-direction: column;
+            &--body{
+                padding-top: 20px;
+                &-field{
+                    color: #999999;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                }
+                &-title{
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+                &-auth{
+                    font-weight: 700;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+
+        .posts__btn{
+            align-self: center;
+            font-size: 10px;
+            padding: 21px 26px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            &:hover{
+                color: white;
+                background-color: #000;
+                border-color: transparent;
+            }
+        }
+    }
+}
+
+#featuredPosts{
+    padding-top: 90px;
+    padding-bottom: 64px;
+
+    .wrapper{
+        .featuredPosts__title{
+            font-size: 10px;
+            color: #999999;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .featuredPosts__cards{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .featuredPosts__card{
+            width: 560px;
+            padding: 12px;
+            border: 1px solid silver;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            display: flex;
+            flex-direction: column;
+
+            &--body{
+                padding-top: 25px;
+                &-field{
+                    color: #999999;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                }
+
+                &-title{
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+                &-auth{
+                    font-weight: 700;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+    }
+}
